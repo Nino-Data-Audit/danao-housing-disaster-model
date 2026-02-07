@@ -6,6 +6,7 @@ I. The Objective
 This repository contains a Socio-Economic Risk Audit of housing destruction in Danao City following Typhoon Tino. The goal was to determine if household income serves as a statistically significant predictor of structural failure.
 
 II. The Universal Workflow
+
 Environment: Built in R using tidyverse for ETL and pwr for sensitivity analysis.
 
 The ETL (Logical Audit): * Income Normalization: Addressed non-standard survey entries (e.g., "5.5K") using mathematical multipliers to preserve economic variance.
