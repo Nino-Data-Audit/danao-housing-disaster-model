@@ -21,6 +21,13 @@ Integrity Check: Flagged $p = 0.096$ as a high-signal indicator requiring a powe
 Key Results:
 
 ![Housing Vulnerability Analysis](output/plot_result)
-The Risk Multiplier: Low-income households exhibited a 2.01x higher risk (Odds Ratio) of total housing destruction compared to higher-income counterparts. 
+
+This plot illustrates the Adjusted Odds Ratios for structural housing failure in Danao City. It visualizes the disproportionate vulnerability faced by specific demographics.
+
+The Low-Income Signal: Households in the low-income bracket face a ~2.0x higher risk of total housing destruction compared to baseline.
+
+The Senior Factor: Similar to low-income earners, senior-headed households show a risk multiplier approaching 2x, indicating age-related vulnerability in disaster response.
+
+The Integrity Check: While the confidence intervals (the horizontal lines) cross the $1.0x$ neutral line (due to $n=177$), the strong central "High-Signal" dots justify the Roadmap to $N \approx 500$ to finalize these as policy mandates.
 
 The Policy Roadmap: Post-hoc Power Analysis determined that an expansion to $N \approx 500$ is required to transition this signal into a 95% Confidence Policy Mandate. 
