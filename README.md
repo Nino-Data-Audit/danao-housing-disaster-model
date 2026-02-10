@@ -6,7 +6,8 @@ Logistic Regression model analyzing housing vulnerability for n=177 households i
 This repository executes a Socio-Economic Risk Audit of housing destruction in Danao City following Typhoon Tino ($n=177$). The framework investigates the causal relationship between household income and structural failure, focusing on detecting "High-Signal" indicators in small-sample disaster datasets. 
 
 🛠️ Technical Workflow (The Universal Logic)
-Environment: Built in R using tidyverse for ETL and pwr for sensitivity analysis. 
+
+The Environment: Built in R using tidyverse for ETL and pwr for sensitivity analysis. 
 
 The ETL (Logical Audit): * Normalization: Addressed non-standard survey entries (e.g., "5.5K") using mathematical multipliers to preserve economic variance and prevent data loss. 
 
