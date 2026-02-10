@@ -20,7 +20,6 @@ Integrity Check: Flagged $p = 0.096$ as a high-signal indicator requiring a powe
 
 Key Results:
 
-![Model Stability Audit](output/result_plot)
 The Risk Multiplier: Low-income households exhibited a 2.01x higher risk (Odds Ratio) of total housing destruction compared to higher-income counterparts. 
 
 The Policy Roadmap: Post-hoc Power Analysis determined that an expansion to $N \approx 500$ is required to transition this signal into a 95% Confidence Policy Mandate. 
