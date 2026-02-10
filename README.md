@@ -1,23 +1,26 @@
-# danao-housing-disaster-model
+# Housing-Vulnerability-Integrity-Audit
 Logistic Regression model analyzing housing vulnerability for n=177 households in Danao City.
 
-I. The Objective
+🏠 Housing-Vulnerability-Integrity-Audit (Danao City)
 
-This repository contains a Socio-Economic Risk Audit of housing destruction in Danao City following Typhoon Tino. The goal was to determine if household income serves as a statistically significant predictor of structural failure.
+📊 Project Overview
 
-II. The Universal Workflow
+This repository executes a Socio-Economic Risk Audit of housing destruction in Danao City following Typhoon Tino ($n=177$). The framework investigates the causal relationship between household income and structural failure, focusing on detecting "High-Signal" indicators in small-sample disaster datasets. 
 
-Environment: Built in R using tidyverse for ETL and pwr for sensitivity analysis.
+🛠️ Technical Workflow (The Universal Logic)
+Environment: Built in R using tidyverse for ETL and pwr for sensitivity analysis. 
 
-The ETL (Logical Audit): Income Normalization: Addressed non-standard survey entries (e.g., "5.5K") using mathematical multipliers to preserve economic variance.
+The ETL (Logical Audit): * Normalization: Addressed non-standard survey entries (e.g., "5.5K") using mathematical multipliers to preserve economic variance and prevent data loss. 
 
-Binary Transformation: Categorized housing outcomes into a "Total Destruction" success/failure model.
+Binary Transformation: Structured housing outcomes into a binary "Total Destruction" success/failure model. 
 
-Modeling & Validation:
-   - Logistic Regression: Utilized to calculate Adjusted Odds Ratios.
+Modeling & Validation:Logistic Regression: Utilized to calculate Adjusted Odds Ratios for income-based structural risk. 
 
-Fisher’s Exact Test: Implemented as a nonparametric pivot to handle small-sample sparsity ($n=177$).
+Nonparametric Pivot: Implemented Fisher’s Exact Test to handle small-sample sparsity and mitigate parametric bias. 
 
-Finding: Households in the "Low Income" bracket faced a 2.01x higher risk of total housing destruction compared to higher-income counterparts.
+Integrity Check: Flagged $p = 0.096$ as a high-signal indicator requiring a power-based roadmap for policy conversion. 
 
-Audit: The p-value of 0.096 was flagged as a "High-Signal/Small-Sample" indicator.The Roadmap: Post-hoc Power Analysis determined that an expansion to $N \approx 500$ is required to transition this signal into a $95\%$ confidence policy mandate.
+Key Results:
+The Risk Multiplier: Low-income households exhibited a 2.01x higher risk (Odds Ratio) of total housing destruction compared to higher-income counterparts. 
+
+The Policy Roadmap: Post-hoc Power Analysis determined that an expansion to $N \approx 500$ is required to transition this signal into a 95% Confidence Policy Mandate. 
