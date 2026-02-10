@@ -20,7 +20,7 @@ Integrity Check: Flagged $p = 0.096$ as a high-signal indicator requiring a powe
 
 Key Results:
 
-![Housing Vulnerability Analysis](output/result_plot.png)
+![Housing-Vulnerability-Integrity-Audit](output/result_plot.png)
 
 The Risk Multiplier: Low-income households exhibited a 2.01x higher risk (Odds Ratio) of total housing destruction compared to higher-income counterparts. 
 
