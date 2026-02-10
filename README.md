@@ -31,4 +31,4 @@ The Senior Factor: Similar to low-income earners, senior-headed households show 
 
 The Integrity Check: While the confidence intervals (the horizontal lines) cross the $1.0x$ neutral line (due to $n=177$), the strong central "High-Signal" dots justify the Roadmap to $N \approx 500$ to finalize these as policy mandates.
 
-The Policy Roadmap: Post-hoc Power Analysis determined that an expansion to $N \approx 500$ is required to transition this signal into a 95% Confidence Policy Mandate. 
+The Policy Roadmap: Post-hoc Power Analysis determined that an expansion to $N \approx 400$ is required to transition this signal into a 95% Confidence Policy Mandate. 
