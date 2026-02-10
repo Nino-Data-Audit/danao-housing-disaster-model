@@ -1,8 +1,6 @@
 # Housing-Vulnerability-Integrity-Audit
 Logistic Regression model analyzing housing vulnerability for n=177 households in Danao City.
 
-🏠 Housing-Vulnerability-Integrity-Audit (Danao City)
-
 📊 Project Overview
 
 This repository executes a Socio-Economic Risk Audit of housing destruction in Danao City following Typhoon Tino ($n=177$). The framework investigates the causal relationship between household income and structural failure, focusing on detecting "High-Signal" indicators in small-sample disaster datasets. 
