@@ -1,5 +1,5 @@
 # The Danao City Structural Vulnerability Audit
-Logistic Regression model analyzing housing vulnerability for n=177 households in Danao City.
+Utilizing Logistic Regression and Power-Based Sensitivity Analysis to Quantify Socio-Economic Vulnerability in Danao City ($n=177$).
 
 📊 Project Overview
 
