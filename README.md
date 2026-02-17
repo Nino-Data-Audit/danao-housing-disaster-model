@@ -9,7 +9,7 @@ This repository executes a Socio-Economic Risk Audit of housing destruction in D
 
 The Environment: Built in R using tidyverse for ETL and pwr for sensitivity analysis. 
 
-The ETL (Logical Audit): * Normalization: Addressed non-standard survey entries (e.g., "5.5K") using mathematical multipliers to preserve economic variance and prevent data loss. 
+The ETL (Logical Audit): Normalization: Addressed non-standard survey entries (e.g., "5.5K") using mathematical multipliers to preserve economic variance and prevent data loss. 
 
 Binary Transformation: Structured housing outcomes into a binary "Total Destruction" success/failure model. 
 
