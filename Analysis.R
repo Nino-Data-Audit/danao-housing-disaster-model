@@ -87,7 +87,7 @@ power_results <- data.frame(
   Value = c(round(h_val, 3), nrow(df_clean), "80%", ceiling(p_calc$n))
 )
 
-#Logic: Powe Analysis
+#Logic: Power Analysis
 power_results %>%
   kbl(caption = "Required Sample Size for Policy Mandate") %>%
   kable_styling(full_width = F, bootstrap_options = "striped")
